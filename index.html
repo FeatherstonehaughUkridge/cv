@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--Tells Browser Type of Document, Version of HTML (HTML 5)-->
+<html lang="en" dir="ltr">
+<!--Tells browser that everything in between beginning
+  and closing tag is HTML code-->
+
+<head>
+  <!--Head is part of file that holds info about webpage,
+    tells browser how to handle.  Title, etc.-->
+  <meta charset="utf-8">
+  <!--meta charset=Character Set-->
+  <!--Meta element gives (extra) associated data to HTML doc,
+        says that all text in this site is encoded
+        using utf 8 system-->
+  <!--Mojibake occurs when browser renders wrong encoding (unicode)-->
+  <!--Utf-8 allows for best encoding compatability
+         for international visitors to site-->
+  <!--Search engines look through HTML for meta tags in order to see what
+           site is about, how to display in index-->
+  <title>Egg McMuffin's Personal</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+      <!--cellspacing edits pixels between cells-->
+    <tr>
+      <td> <img src="Eggmuffin.jpg" alt="Luscious Me">
+        <!--Src is source, paste in picture adress.  alt is alternative text if browser can't render image, put text, browser looks at it for keywords-->
+        <!--Can refer to file name if downloaded, if same hierarchical level.  If in different level, would have to add a path via [folder name]/eggmuffin.jpg-->
+      </td>
+      <td>
+        <h1>Egg Muffin</h1>
+        <em>
+          <p>A scrumptious <strong><a href="https://www.mcdonalds.com/us/en-us/product/egg-mcmuffin.html">breakfast option</a></strong> that you'll be lovin'</p>
+        </em>
+        <!--Paragraph (<p>
+        </p>)Element, Italics(<i></i> or stress emphasis <em></em>) element-->
+        <!--Emphasis tags says that things should be stressed, italics does not put
+            emphasis, just styles-->
+        <p>I am a wonderful addition to any course, but always looking to be a part
+          of <em>your</em> breakfast. With a golden brown top, filling middle,
+          and delicious end, you know you have to have me.</p>
+      </td>
+    </tr>
+  </table>
+
+
+
+  <hr>
+
+
+  <h3>Education</h3>
+  <ul>
+    <!--Bullet List-->
+    <li>Saint Donald of Soda's Convent School</li>
+    <li>The Epicurius School for Culinary Delights (I was the main course)</li>
+  </ul>
+
+<hr>
+
+  <h3>Work Experience</h3>
+    <table cellspacing="10">
+    <!--Table Code Template, will style the table not to have borders, padding, no style-->
+    <thead>
+      <tr>
+        <!--Table Row tells data for that row, creates a single row-->
+        <td><strong>Time Period</strong></td>
+        <!--What will be in first table cell-->
+        <td><strong>Work</strong></td>
+      </tr>
+    </thead>
+
+      <tbody>
+      <tr>
+        <td>My whole life</td>
+        <td>Being delicious ;)</td>
+      </tr>
+      </tbody>
+    </table>
+
+<hr>
+
+
+<h3>Qualities</h3>
+
+<table cellspacing="10"><!--Single Table with Two Tables Within-->
+  <tr><!--Single Row-->
+    <td><!--Single Horizontal Box in Row-->
+      <table><!--First table within a table-->
+        <tr>
+          <td>Delicious</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Filling</td>
+            <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td><!--Second Cell-->
+      <table><!--Second table within a table-->
+        <tr>
+          <td>Nutritious</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Healthy</td>
+          <td>⭐</td>
+        </tr>
+      </table>
+    </td>
+  </table>
+
+
+<hr>
+
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contact.html">Contact me ❤</a>
+
+</body>
+
+</html>
+
+<!--to publish website, it must be hosted somewhere.  Here, it is GitHub.-->
